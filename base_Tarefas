@@ -1,0 +1,9 @@
+Tarefas | CREATE TABLE `Tarefas` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `tarefa` varchar(32) NOT NULL,
+  `materia` varchar(32) DEFAULT NULL,
+  `data` date DEFAULT NULL,
+  `usuario` varchar(32) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=98 DEFAULT CHARSET=latin1 |
+
